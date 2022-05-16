@@ -3,4 +3,10 @@
     margin: 0;
     background-color: rgb(172, 223, 223);
     display: flex;
+    justify-content: center;
+}
+
+.splitter {
+    width: 30px;
+    height: 30px;
 }
