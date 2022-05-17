@@ -36,3 +36,8 @@ ul {
     display: flex;
     list-style: none;
 }
+
+main {
+    border: solid 5px red;
+    
+}
