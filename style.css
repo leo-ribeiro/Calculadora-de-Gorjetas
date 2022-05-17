@@ -13,17 +13,32 @@ body {
 .splitter {
     border: solid 5px;
     width: 50px;
+    text-align: center;
     justify-content: center;
     justify-items: center;
     margin: 50px;
 }
 
  .container {
+   /*   display: flex;
+     flex-direction: column;
     width: 700px;
     height: 500px;
     background-color: white;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center;
+    border-radius: 25px; */
+
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    align-content: space-around;
     
 } 
 
